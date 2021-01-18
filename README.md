@@ -3,7 +3,7 @@
 This repository contains the code for the simple `HTML, CSS` page which results as the screen shot given bellow.
 
 ### Screenshot of the output page :
-![SS](Screenshot 2021-01-16 at 11.57.35 PM)
+![SS](./Screenshot 2021-01-16 at 11.57.35 PM)
 
 ### Features!
 
