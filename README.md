@@ -3,7 +3,7 @@
 This repository contains the code for the simple `HTML, CSS` page which results as the screen shot given bellow.
 
 ### Screenshot of the output page :
-![SS](./Screenshot 2021-01-16 at 11.57.35 PM)
+![SS](https://github.com/princedalsaniya/LinkedIn_Lite_GlassMorphism_Home_Page/blob/main/Screenshot%202021-01-16%20at%2011.57.35%20PM.png?raw=true)
 
 ### Features!
 
