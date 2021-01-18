@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* general text tags */
+h1{
+    font-weight: bold;
+}
+h2{
+    font-weight: bold;
+}
+p{
+    font-weight: normal;
+}
+
+/* two decorative circles */
+.circle-1{
+    background: linear-gradient(to right bottom, rgba(4, 83, 4, 0.8), rgba(126, 221, 126, 0.1));
+    top: 5%;
+    left: 14%;
+}
+.circle-2{
+    background: linear-gradient(to right bottom, rgba(126, 221, 126, 0.1), rgba(4, 83, 4, 0.8));
+    bottom: 5%;
+    right: 7%;
+}
+
+/* base of the page */
+main{
+    height: 100vh;
+    background: palegreen;
+    background: linear-gradient(to right top, palegreen, rgb(40, 173, 40));
+    display: flex;
+    /* align vertically */
+    align-items: center;
+    /* align horizontally */
+    justify-content: center;
+    font-family: 'Comfortaa', cursive;
+}
+.glass-plate {
+    height: 80%;
+    width: 60%;
+    z-index: 2;
+
+    background: rgba( 255, 255, 255, 0.4 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 1.3rem;
+
+    display: flex;
+}
+
+/* two parts of the glass plate */
+.dashboard{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center ;
+
+    background: rgba( 255, 255, 255, 0.4 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 1.3rem;
+}
+.home{
+    flex: 2;
+    padding: 1rem 2rem ;
+}
+
+/* Left part of glass plate */
+.user > h2{
+    padding-bottom: 0.5rem;
+}
+.dashboard > hr{
+    width: 80%;
+    border-width: 2px;
+    border-style: solid;
+    color: rgb(45, 158, 10);
+}
+.link{
+    display: flex;
+    padding: 1rem 0.5rem;
+    margin: 0 0.5rem;
+    align-items: center;
+}
+.link > h3{
+    padding: 0rem 3rem;
+}
+.active{
+    background: rgba(107, 102, 102, 0.5);
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 1.3rem;
+}
+.circle-1,.circle-2{
+    height: 20rem;
+    width: 20rem;
+    position: absolute;
+    z-index: 1;
+    border-radius: 50%;
+}
+.user > img {
+    width: 5vw;
+    height: 10h;
+    border-radius: 50%;
+    border-width: 10px;
+    border: solid black;
+    margin-bottom: 0.5rem;
+}
+.pro > img{
+    width: 11vw;
+    height: 16vh;
+}
+.pro > h2 {
+    font-weight: lighter;
+    padding-bottom: 1rem;
+}
+
+/* Right side of glass plate */
+.top{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.top > h1{
+    padding-bottom: 1rem;
+}
+.top>input{
+    width: 100%;
+    height: 8vh;
+    border-radius: 1rem;
+    border: none;
+}
+
+/* Cards */
+.cards{
+    padding-bottom: 1rem;
+}
+.card{
+    padding: 1rem;
+    margin: 1rem 0;
+
+    background: rgba( 255, 255, 255, 0.6 );
+    backdrop-filter: blur( 9.0px );
+    -webkit-backdrop-filter: blur( 10.0px );
+    border-radius: 1.3rem;
+}
+.person{
+    display: flex;
+    justify-content: left;
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+.person>img{
+    margin-right: 1rem;
+}
+.person-info{
+    margin-bottom: 0.7rem;
+}
+.card>hr{
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    color: rgb(2, 7, 1);
+}
+.post{
+    margin: 1rem 0;
+}
+.options{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+}
